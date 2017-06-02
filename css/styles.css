@@ -1,4 +1,20 @@
+body {
+  background-color: #fafafa;
+}
+
+
+/*Nav bar styles*/
+
 .navbar-inverse li {
-  
+  font-size: 115%;
   color: white;
+}
+
+/*Styles for Banner (Directly underneath navbar)*/
+#banner {
+  font-size: 6em;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 15px;
+  padding-top: 50px;
 }
