@@ -24,28 +24,28 @@ $(document).ready(function() {
        if (score1 < 3){
          $("#maincon").empty();
          $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
-         $("#maincon").append("<h2 id='resulth'> You got Ruby</h2>");
-         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af fam</h2>");
-       } else if (result <= 4){
+         $("#maincon").append("<h2 id='resulth'> You don't like Pizza, fam?</h2>");
+         $("#maincon").append("<h2 id='resulttext'>Pizza is dank af, fam.</h2>");
+       } else if (result < 4){
          $("#maincon").empty();
          $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
-         $("#maincon").append("<h2 id='resulth'> You got Ruby</h2>");
-         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af fam</h2>");
-       } else if (result <= 8){
+         $("#maincon").append("<h2 id='resulth'> You got Ruby, fam.</h2>");
+         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af, fam.</h2>");
+       } else if (result >= 4 && result < 8){
          $("#maincon").empty();
          $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
-         $("#maincon").append("<h2 id='resulth'> You got Ruby</h2>");
-         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af fam</h2>");
-       } else if (result <= 12){
+         $("#maincon").append("<h2 id='resulth'> You got Ruby Python</h2>");
+         $("#maincon").append("<h2 id='resulttext'>Python is dank af, fam.</h2>");
+       } else if (result result >= 8 && result < 12){
          $("#maincon").empty();
          $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
-         $("#maincon").append("<h2 id='resulth'> You got Ruby</h2>");
-         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af fam</h2>");
-       } else if (result <= 15){
+         $("#maincon").append("<h2 id='resulth'> You got Javascript, fam.</h2>");
+         $("#maincon").append("<h2 id='resulttext'>Javascript is dank af, fam.</h2>");
+       } else if (result >= 12){
          $("#maincon").empty();
          $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
-         $("#maincon").append("<h2 id='resulth'> You got Ruby</h2>");
-         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af fam</h2>");
+         $("#maincon").append("<h2 id='resulth'> You got Assembly, fam.</h2>");
+         $("#maincon").append("<h2 id='resulttext'>Assembly is dank af, fam.</h2>");
        }
      }
 
