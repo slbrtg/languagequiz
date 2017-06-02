@@ -24,12 +24,12 @@ $(document).ready(function() {
      var result = score1 + score2 + score3 + score4 + score5
 
      //function for displaying the correct results
-       var displayResults = function(result) {
+      var displayResults = function(result) {
          if (score1 < 3){
            $("#maincon").empty();
            $("#maincon").append("<img id='resultimg'src='img/pizza.jpg'>");
            $("#maincon").append("<h2 id='resulth'> You don't like Pizza, " + name + "?</h2>");
-           $("#maincon").append("<h2 id='resulttext'>Pizza is dank af, fam.</h2>");
+           $("#maincon").append("<h2 id='resulttext'>Pizza is dank af, fam. Try again with the correct response. You LOVE pizza.</h2>");
          } else if (result <= 3){
            $("#maincon").empty();
            $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
