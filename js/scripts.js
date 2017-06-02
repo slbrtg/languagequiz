@@ -51,6 +51,6 @@ $(document).ready(function() {
 
 
     displayResults(result);
-    $('html, body').animate({scrollTop:75}, 'slow');
+    $('html, body').animate({scrollTop:5}, 'slow');
   });
 });
