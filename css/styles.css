@@ -41,6 +41,10 @@ body {
 
 /*Styles for #mainform*/
 
+#mainform {
+  margin-bottom: 100px;
+}
+
 #formh {
   text-align: center;
   font-size: 3em;

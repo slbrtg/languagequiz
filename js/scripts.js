@@ -2,6 +2,10 @@ $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
 
+    //capture name from form, if no name provided default to fam
+    var name = $("#name").val();
+    if ( name === "") { name = "fam"; }
+
      //capture the value from the form and if no input is made
      //default the value to 0
      var score1= parseInt($("input:radio[name=score1]:checked").val());
@@ -24,27 +28,27 @@ $(document).ready(function() {
          if (score1 < 3){
            $("#maincon").empty();
            $("#maincon").append("<img id='resultimg'src='img/pizza.jpg'>");
-           $("#maincon").append("<h2 id='resulth'> You don't like Pizza, fam?</h2>");
+           $("#maincon").append("<h2 id='resulth'> You don't like Pizza, " + name + "?</h2>");
            $("#maincon").append("<h2 id='resulttext'>Pizza is dank af, fam.</h2>");
          } else if (result <= 3){
            $("#maincon").empty();
            $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
-           $("#maincon").append("<h2 id='resulth'> You got Ruby, fam.</h2>");
+           $("#maincon").append("<h2 id='resulth'> You got Ruby, "+ name + "</h2>");
            $("#maincon").append("<h2 id='resulttext'>Ruby is dank af, fam.</h2>");
          } else if (result >= 4 && result < 8){
            $("#maincon").empty();
            $("#maincon").append("<img id='resultimg'src='img/python.png'>");
-           $("#maincon").append("<h2 id='resulth'> You got Python</h2>");
+           $("#maincon").append("<h2 id='resulth'> You got Python, "+ name + "</h2>");
            $("#maincon").append("<h2 id='resulttext'>Python is dank af, fam.</h2>");
          } else if (result >= 8 && result < 12){
            $("#maincon").empty();
            $("#maincon").append("<img id='resultimg'src='img/javascript.jpg'>");
-           $("#maincon").append("<h2 id='resulth'> You got Javascript, fam.</h2>");
+           $("#maincon").append("<h2 id='resulth'> You got Javascript, "+ name + "</h2>");
            $("#maincon").append("<h2 id='resulttext'>Javascript is dank af, fam.</h2>");
          } else if (result >= 12){
            $("#maincon").empty();
            $("#maincon").append("<img id='resultimg'src='img/assembly.jpg'>");
-           $("#maincon").append("<h2 id='resulth'> You got Assembly, fam.</h2>");
+           $("#maincon").append("<h2 id='resulth'> You got Assembly, " + name + "</h2>");
            $("#maincon").append("<h2 id='resulttext'>Assembly is dank af, fam.</h2>");
          }
        }
