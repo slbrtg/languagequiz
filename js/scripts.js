@@ -33,7 +33,7 @@ $(document).ready(function() {
            $("#maincon").append("<h2 id='resulttext'>Ruby is dank af, fam.</h2>");
          } else if (result >= 4 && result < 8){
            $("#maincon").empty();
-           $("#maincon").append("<img id='resultimg'src='img/python.jpg'>");
+           $("#maincon").append("<img id='resultimg'src='img/python.png'>");
            $("#maincon").append("<h2 id='resulth'> You got Python</h2>");
            $("#maincon").append("<h2 id='resulttext'>Python is dank af, fam.</h2>");
          } else if (result >= 8 && result < 12){
