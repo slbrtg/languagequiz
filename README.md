@@ -1,23 +1,20 @@
-# _Skeleton_
+# _Programming Quiz_
 
-#### _Basic web page file system, May 2017_
+#### _Determines the language you should study, May 2017_
 
 #### By _Saul_
 
 ## Description
 
-_Contains an index.html file that links to an styles.css file, bootstrap.cs, scripts.js, and jQuery. Contains
-img, css, and scripts folders_
+_ry comprehensive, much accurate. Become program god today. _
 
 ## Setup/Installation Requirements
 
-* Clone to desired folder
-* Run "rm -rf .git/" to delete existing git repo
-* Reinitialize git and start working
+* Just answer the questions, silly.
 
 
 ## Support and contact details
-
+1 800 hotline-bling
 __
 ## Technologies Used
 
@@ -25,4 +22,4 @@ _Git,HTML,CSS,JS,JQ_
 
 ### License
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_{List of contributors or company name}_**
