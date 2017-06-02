@@ -33,7 +33,7 @@
       </div>
       <div class="container" id="mainform">
         <h2 id="formh">Fill out the form and hit submit to discover your Mexican Armada</h2>
-        <form id="user">
+        <form id="quiz">
          <div class="form-group" id="user">
            <label for="name">Name</label>
            <input type="name" class="form-control" id="name" placeholder="your name here">
@@ -41,48 +41,86 @@
          <div class="radio">
             <h4>In regards to pizza, how much do you love it?</h4>
             <label>
-              <input type="radio" name="score" value="1">
+              <input type="radio" name="score1" value="1">
               a little
             </label>
             <label>
-              <input type="radio" name="score" value="2">
+              <input type="radio" name="score1" value="2">
               a lotta
             </label>
             <label>
-              <input type="radio" name="score" value="3">
+              <input type="radio" name="score1" value="3">
               a whole lotta
             </label>
           </div>
           <div class="radio">
              <h4>In regards to ramen, is it back on the menu?</h4>
              <label>
-               <input type="radio" name="score" value="1">
+               <input type="radio" name="score2" value="1">
                a little
              </label>
              <label>
-               <input type="radio" name="score" value="2">
+               <input type="radio" name="score2" value="2">
                a lotta
              </label>
              <label>
-               <input type="radio" name="score" value="3">
+               <input type="radio" name="score2" value="3">
                a whole lotta
              </label>
            </div>
            <div class="radio">
-              <h4>In regards to ramen, is it back on the menu?</h4>
+              <h4>A bear attacks, where are you?</h4>
               <label>
-                <input type="radio" name="score" value="1">
-                a little
+                <input type="radio" name="score3" value="1">
+                Big chillin in my van
               </label>
               <label>
-                <input type="radio" name="score" value="2">
-                a lotta
+                <input type="radio" name="score3" value="2">
+                Searching for the ancient blade of my ancestors
               </label>
               <label>
-                <input type="radio" name="score" value="3">
-                a whole lotta
+                <input type="radio" name="score3" value="3">
+                Lying in wait for the unsuspecting bear
               </label>
             </div>
+            <div class="radio">
+               <h4>On occassion people don't think it be like it is but it do,
+                   how does this make you feel?
+                </h4>
+               <label>
+                 <input type="radio" name="score4" value="1">
+                 it do
+               </label>
+               <label>
+                 <input type="radio" name="score4" value="2">
+                 sometimes it do
+               </label>
+               <label>
+                 <input type="radio" name="score4" value="3">
+                 always it do
+               </label>
+             </div>
+             <div class="radio">
+                <h4>Sasquatch or Wendigo?
+                 </h4>
+                <label>
+                  <input type="radio" name="score5" value="1">
+                  maybe
+                </label>
+                <label>
+                  <input type="radio" name="score5" value="2">
+                  well seattle, so sasquatch
+                </label>
+                <label>
+                  <input type="radio" name="score5" value="3">
+                  what is a wendigo
+                </label>
+            </div>
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+        <div id="output">
+
+        </div>
 
       </div>
     </body>
