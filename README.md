@@ -6,15 +6,10 @@
 
 ## Description
 
-_ry comprehensive, much accurate. Become program god today. _
-
-## Setup/Installation Requirements
-
-* Just answer the questions, silly.
-
+_very comprehensive, much accurate. Become program god today_
 
 ## Support and contact details
-1 800 hotline-bling
+_1 800 hotline-bling_
 __
 ## Technologies Used
 
