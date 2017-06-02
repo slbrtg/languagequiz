@@ -22,10 +22,6 @@ body {
 
 /*Styles #maincon (Directly underneath #banner)*/
 
-#mainconimage {
-  text-align: center;
-}
-
 #mainconh {
   color: salmon;
   font-size: 2.4em;
@@ -61,4 +57,25 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: center;
+}
+
+/*Styles for results*/
+
+#resulth {
+  color: salmon;
+  font-size: 8em;
+  text-align: center;
+}
+
+#resulttext {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bolder;
+  padding-top: 7px;
+  color: salmon;
+}
+
+#resultimg {
+  height: 600px;
+  width: 1200px;
 }

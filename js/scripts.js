@@ -22,23 +22,34 @@ $(document).ready(function() {
      //function for displaying the correct results
      var displayResults = function(result) {
        if (score1 < 3){
-         $("#output").empty();
-         $("#output").append("<img src='img/bannerimage.png'>");
+         $("#maincon").empty();
+         $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
+         $("#maincon").append("<h2 id='resulth'> You got Ruby</h2>");
+         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af fam</h2>");
        } else if (result <= 4){
-         $("#output").empty();
-         $("#output").append("<img src='img/bannerimage.png'>");
+         $("#maincon").empty();
+         $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
+         $("#maincon").append("<h2 id='resulth'> You got Ruby</h2>");
+         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af fam</h2>");
        } else if (result <= 8){
-         $("#output").empty();
-         $("#output").append("<img src='img/bannerimage.png'>");
+         $("#maincon").empty();
+         $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
+         $("#maincon").append("<h2 id='resulth'> You got Ruby</h2>");
+         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af fam</h2>");
        } else if (result <= 12){
-         $("#output").empty();
-         $("#output").append("<img src='img/bannerimage.png'>");
+         $("#maincon").empty();
+         $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
+         $("#maincon").append("<h2 id='resulth'> You got Ruby</h2>");
+         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af fam</h2>");
        } else if (result <= 15){
-         $("#output").empty();
-         $("#output").append("<img src='img/bannerimage.png'>");
+         $("#maincon").empty();
+         $("#maincon").append("<img id='resultimg'src='img/ruby.png'>");
+         $("#maincon").append("<h2 id='resulth'> You got Ruby</h2>");
+         $("#maincon").append("<h2 id='resulttext'>Ruby is dank af fam</h2>");
        }
      }
 
     displayResults(result);
+    $('html, body').animate({scrollTop:80}, 'slow');
   });
 });
